@@ -1,0 +1,48 @@
+$font-roboto: 'Roboto', sans-serif;
+$font-color-title: black;
+$color-yellow: rgb(248, 208, 29);
+$color-red: rgb(211, 21, 21);
+
+
+.card-container{
+    margin-left: 20px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5%;
+    font-family: $font-roboto;
+}
+
+.infos-container {
+    padding: 15px 20px 5px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.difficulty {
+    color: $color-yellow;
+}
+
+.favorite {
+    color: $color-red;
+}
+
+.time, .person {
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    padding: 0px 20px 10px 20px;
+}
+
+li {
+    padding-bottom: 3px;
+}
+
+img{
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+
